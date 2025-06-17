@@ -7,7 +7,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    
+
     margin-top: 50px;
     background-color: #fff;
     border-radius: 15px;
@@ -23,7 +23,8 @@ body {
 
 .todo-wrapper p {
     font-style: italic;
-    color: #666;
+    color: gray;
+    opacity: 50;
     margin: 5px 0;
 }
 
@@ -43,14 +44,13 @@ body {
 }
 
 .todo-wrapper ol li:nth-child(even) {
-    background: #ddd;
+    background: gray;
 }
 
 .todo-wrapper .completed {
     text-decoration: line-through;
-    color: #666;
+    color: red;
 }
-
 .todo-wrapper .pretty-button {
     margin: 10px 2px;
     padding: 5px 20px;
